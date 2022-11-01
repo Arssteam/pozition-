@@ -1,0 +1,36 @@
+body{
+    padding-left: 200px;
+    margin: 15px;
+}
+
+div{
+    height: 500px;
+    width: 500px;
+}
+
+.block_1{
+
+    background-color: green;
+    position: relative;
+    left: 50px;
+    z-index: 10;
+}
+
+.block_2{
+
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    z-index: 20;
+}
+
+.blocks{
+    background-color: blueviolet;
+    height: 100px;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    z-index: 100;
+}
+
